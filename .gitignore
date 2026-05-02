@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual Environment
+.venv/
+venv/
+
+# IDE
+.idea/
+
+# Projektdaten (werden lokal generiert)
+data/bank.db
+logs/audit.log
