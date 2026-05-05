@@ -13,3 +13,5 @@ venv/
 # Projektdaten (werden lokal generiert)
 data/bank.db
 logs/audit.log
+
+.DS_Store
