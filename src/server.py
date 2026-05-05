@@ -4,7 +4,7 @@ import json
 import os
 from datetime import datetime
 
-API_BASE_URL = "http://127.0.0.1:8000"
+API_BASE_URL = os.getenv("API_BASE_URL", "http://127.0.0.1:8000")
 LOG_PATH = os.path.join(os.path.dirname(__file__), "..", "logs", "audit.log")
 
 mcp = FastMCP("Bank MCP Server")
